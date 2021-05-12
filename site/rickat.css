@@ -1,0 +1,51 @@
+h2
+{
+	text-align: center ; 
+	font-weight: bold ;
+	font-family: sans-serif ; 
+
+}
+.maindiv
+{
+	width: 100% ; 
+	margin:10px;
+	
+}
+*
+{
+	box-sizing: border-box;
+}
+.subp
+{
+background-color:black; 
+border:1px solid red ;display: block;
+
+padding:0px ;margin:0px;
+padding-top: 0px ; 
+padding-bottom: 0px ;
+
+}
+@media(min-width: 1000px)
+{
+	.col-lg-3
+	{
+		float: left; 
+		width: 25% ; 
+	}
+}
+@media(min-width: 600px) and (max-width: 999px)
+{
+	.col-md-6
+	{
+		float: left;
+		width: 50%  ;
+	}
+}
+@media(max-width: 599px)
+{
+	.col-sm-12
+	{
+		float: left; 
+		width: 100% ; 
+	}
+}

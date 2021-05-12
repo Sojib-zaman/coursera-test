@@ -1,0 +1,64 @@
+body
+{
+ background-color: yellow ; 
+ margin:0;
+ padding: 0 ; 
+ display: inline;
+
+}
+*
+{
+	box-sizing: border-box;
+}
+#dd
+{
+	margin : 0px ; 
+}
+#xx
+{
+	background-color: green ;
+	border:2px solid black ;
+
+	width: 800px ;
+	
+}
+#aa
+{
+	border:4px solid black ; 
+	background-image: url("https://www.festo.com/group/en/repo/assets/319718852-corona-1532x900-adobestock.jpg");
+	background-position: center;
+	background-size: cover;
+
+	background-repeat: no-repeat;
+	font-weight: bold;
+		width: 80% ; 
+	background-color: lightblue ; 
+	margin:10px;
+	
+	
+}
+#bb
+{
+	background-color: teal ; 
+	margin: 10px ; 
+	border:4px solid black ; 
+	position: relative;
+	width: 70%; 
+	
+
+}
+@media (max-width: 1000px) 
+{
+	#bb
+	{
+		width: 50%  ; 
+	}
+	#aa
+	{
+		width: 60% ; 
+	}
+	#xx
+	{
+		width: 100% ; 
+	}
+}
